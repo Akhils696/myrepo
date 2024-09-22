@@ -3,4 +3,6 @@ import sys
 
 print("Hello World")
 
-print(str(1+2))
+def ab(m, n):
+    return str(m+n)
+print(ab(3, 4))
